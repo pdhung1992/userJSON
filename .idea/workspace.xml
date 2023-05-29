@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="22a49b3b-acf7-40d9-85f4-ce9e58820fee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MLJday1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/.idea/libraries/mysql_connector_j_8_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/MLJday1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/breakfast_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/cd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/lib/mysql-connector-j-8.0.33.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/purchase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/src/com/cdxml/CDs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/src/com/cdxml/MainCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/src/com/day1/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/src/com/day1/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/src/com/purchase/MainPurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday1/src/com/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday2-XML/MLJday2-XML.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday2-XML/src/com/day2/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/.idea/libraries/mysql_connector_j_8_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/MLJday4-JSON.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/lib/jackson-all-1.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/lib/json-simple-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/lib/mysql-connector-j-8.0.33.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/lib/org.json.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/src/com/json/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/src/com/json/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/src/com/json/Geography.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/src/com/json/JsonManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/src/com/json/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/src/com/json/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/src/com/json/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/src/com/json/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/src/com/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLJday4-JSON/student.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_all_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserJSON.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-all-1.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/json-simple-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-j-8.0.33.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/org.json.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/user/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/user/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/user/Geography.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/user/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/user/UserManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/.idea/learing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learing/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReactJS/learn-react/src/Mounted.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java2/J2Assigment-TasksWithLogging" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java2/J2Assigment-TasksWithLogging" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactJS/Learning/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactJS/Learning/.idea/Learning.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactJS/Learning/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactJS/Learning/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactJS/Learning/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactJS/learn-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ReactJS/learn-react/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2QSnrYTjO9A8dGEG8o0vSZQXInU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/hungphung/Desktop/Aptech/MLJ/UserJSON/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/hungphung/Desktop/Aptech/MLJ/UserJSON/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src/com/user" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.user" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainClass" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.user.MainClass" />
+      <module name="UserJSON" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22a49b3b-acf7-40d9-85f4-ce9e58820fee" name="Changes" comment="" />
+      <created>1685356051492</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685356051492</updated>
+      <workItem from="1685356052592" duration="3409000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
