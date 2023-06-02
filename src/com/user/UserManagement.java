@@ -1,12 +1,16 @@
 package com.user;
 
+import com.util.DBUtil;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.json.simple.parser.JSONParser;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.sql.CallableStatement;
+import java.sql.Connection;
 
 public class UserManagement {
     public void readUserAPI() throws Exception{
@@ -27,7 +31,7 @@ public class UserManagement {
                 respond.append(jsonLine);
             }
             bufferedReader.close();
-//            System.out.println(respond.toString());
+            System.out.println(respond.toString());
 
             //get user data
             JSONArray jsonArray = new JSONArray(respond.toString());
@@ -61,11 +65,28 @@ public class UserManagement {
                     user.company.setBs(companyObject.get("bs").toString());
 
 
-                System.out.println(user.toString());
+//                System.out.println(user.toString());
+                Connection conn = DBUtil.getConnection();
+                CallableStatement callableStatement = conn.prepareCall("{call addUser(?, ?, ?, ? , ?, ?, ?, ?)}");
+                callableStatement.setInt(1, user.getId());
+                callableStatement.setString(2, user.getName());
+                callableStatement.setString(3, user.getUserName());
+                callableStatement.setString(4, user.getEmail());
+                callableStatement.setString(5, String.valueOf(addObject));
+                callableStatement.setString(6, user.getPhone());
+                callableStatement.setString(7, user.getWebsite());
+                callableStatement.setString(8, String.valueOf(companyObject));
+                if(callableStatement.executeUpdate() >0){
+                    System.out.println("User ID: " + user.id + " inserted!");
+                }
+                callableStatement.close();
+                conn.close();
+
             }
             connection.disconnect();
         }catch (Exception e){
             throw new Exception(e.getMessage());
         }
     }
+
 }
